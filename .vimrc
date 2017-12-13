@@ -1,4 +1,6 @@
-set shiftwidth=4
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 :set autoindent
 :set cindent
 if has("gui_running")
