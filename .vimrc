@@ -1,4 +1,5 @@
 set shiftwidth=2
+:set guicursor+=a:blinkon0
 set softtabstop=2
 set tabstop=2
 :set autoindent
@@ -28,10 +29,10 @@ map <C-n> :NERDTreeToggle<CR>
 :set guioptions-=L  "remove left-hand scroll bar
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify'
-Plug 'jreybert/vimagit'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'airblade/vim-gitgutter'
+"Plug 'jreybert/vimagit'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+"Plug 'airblade/vim-gitgutter'
 call plug#end()
 let g:airline_theme='bubblegum'
 let g:airline#extensions#tabline#formatter = 'unique_tail'
