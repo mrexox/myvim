@@ -34,14 +34,14 @@ Plug 'mhinz/vim-startify'
 "Plug 'vim-airline/vim-airline-themes'
 "Plug 'airblade/vim-gitgutter'
 call plug#end()
-let g:airline_theme='bubblegum'
-let g:airline#extensions#tabline#formatter = 'unique_tail'
-let g:gitgutter_override_sign_column_highlight = 0
-let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v'])
+"let g:airline_theme='bubblegum'
+"let g:airline#extensions#tabline#formatter = 'unique_tail'
+"let g:gitgutter_override_sign_column_highlight = 0
+"let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v'])
 "set rtp+=$HOME/.local/lib/python3.6/site-packages/powerline/bindings/vim/
 set laststatus=2
 set t_Co=256
 
 
-let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#enabled = 1
 
